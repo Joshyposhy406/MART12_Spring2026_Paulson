@@ -1,0 +1,239 @@
+<html>
+
+<Head>
+    <title> First Page</title>
+    <link rel="stylesheet" href="Style.css">
+    <br>
+
+    <style>
+        /* Embedded Styles affecting at least three tags (body, h1, ul) */
+        body {
+            background-color: Tan;
+        }
+
+        h1 {
+            color: black;
+            text-align: center;
+        }
+
+        p {
+            font-family: sans-Serif;
+            font-size: 20px;
+        }
+
+        /* THIS CENTERS THE "WEBSITE PAGES" HEADINF AND LINKS BELOW IT */
+        
+        body {
+            background-color: Tan;
+        }
+
+        h1 {
+            color: black;
+            text-align: center;
+        }
+
+        p {
+            font-family: sans-serif;
+            font-size: 20px;
+        }
+
+        /* THIS CENTERS THE "WEBSITE PAGES" HEADING AND LINKS BELOW IT */
+
+    </style>
+
+</Head>
+
+<body>
+
+    <span id="specific Color"> new color </span>
+
+    <h1 id="main-title"> Welcome to My Homepage</h1>
+
+
+    <h2 class="content-text" style="color: darkgreen;">My Favorite Hobbies</h2>
+    <ul id="favorite-list">
+        <li>Listining to Music </li>
+        <li> Playing Video Games</li>
+        <li>Spending Time in Nature</li>
+    </ul>
+
+    <h2 class="content-text" style="color: darkgreen;">My Favorite Restaurants</h2>
+    <ul id="favorite-list">
+
+        <ul>
+            <li><a href="https://www.subway.com" style="text-decoration:Underline" target="new" id="font">Subway</a>
+            </li>
+            <li><a href="https://www.dominos.com" style="text-decoration:Underline" target="new" id="font"> Dominos
+                    Pizza</a></li>
+            <li><a href="https://www.tacobell.com" style="text-decoration:Underline" target="new" id="font" class="Test">Taco Bell
+                </a></li>
+        </ul>
+
+
+
+        <h2 class="content-text" style="color: darkgreen;">List of My Favorite Websites</h2>
+        <ul id="favorite-list">
+            <br>
+
+            <span id="SecificColor"> New color </span>
+            <br>
+            <a href="https://open.spotify.com" id="specificLink" target="_blank"> >Spotify
+                <a href="https://www.youtube.com" id="specificLink" target="_blank"> >Youtube
+                    <a href="https://www.amazon.com" id="specificLink" target="_blank"> >Amazon
+                    </a>
+
+                    <ol>
+                        <li><a href="https://open.spotify.com/" style="text-decoration:none" target="_blank">Spotify</a>
+                        </li>
+                        <li><a href="https://www.youtube.com" style="text-decoration:none" target="_blank">Youtube</a>
+                </a></li>
+                <li><a href="https://www.amazon.com/" style="text-decoration:none" target="_blank">Amazon</a></li>
+                </ol>
+
+
+
+
+
+                <div class="footer-nav">
+                    <hr>
+                    <h2>Website Pages</h2>
+                    <a href="Second Page 7.html" style="text-decoration:none" target="_blank">Go To My Second Page</a>
+                    <a href="Third Page 7.html" style="text-decoration:none" target="_blank">Go To My Contact Page</a>
+
+                </div>
+
+</Body>
+
+</html>
+ <html>
+        <Head>
+            <title> My Favorite Story</title>
+        <style>
+         body {
+            background-image:url(Doggo.jpg); 
+            background-size: cover;
+            background-attachment: fixed;
+            background-color: Tan; /* Fallback color */ }
+            .story-container {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            margin: 20px;}
+         
+        /* This centers the "Website Pages" heading and the links below it */
+        .footer-nav { text-align: center;  margin-top: 50px; /* Adds some space above the links */
+        padding-bottom: 20px;}
+
+        /* This ensures the links stay on separate lines and look clean */
+        .footer-nav a { display: block;
+            margin: 5px 0;
+            text-decoration: none;
+            color: blue;}
+    </style>
+</head>
+
+<div class="footer-nav"> 
+       <h1>My Favorite Story</h1>
+
+       <p> The Lorax by Dr. Seuss is about a man called the Once-ler who cuts down Truffula  trees 
+        to make a product called a Thneed. The Lorax, who speaks for the trees, warns him that
+         cutting them down will harm the environment and animals. The Once-ler doesn’t listen, 
+         and eventually all the trees are gone and the animals leave. In the end, he gives a boy 
+         the last seed and says the environment can only be saved if someone truly cares.
+       </p>
+      
+
+        <h1> An Image I like </h1>
+        <img src="Doggo.jpg"> 
+    </div>
+   
+
+    <div class="footer-nav">
+        <hr>
+        <h2> Navigation</h2>
+ <a href="First Page 7.html">Go to My First Page</a><br><br>
+<a href="Third Page 7.html">Go to My Contact Page</a><br>
+    </div>
+</body>
+</html>
+
+#test {
+    color: rgb(255, 0, 0);
+    font-family: arial;
+    Font-size: 24px;
+}
+
+#specificLink {
+    color: rgb(120, 236, 25);
+    font-family: arial;
+    font-size: 28px;
+}
+
+.footer-nav {
+    text-align: center;
+    margin-top: 50px;
+    /* adds some space above the links*/
+    padding-bottom: 20px;
+}
+
+.footer-nav a {
+    display: blocks;
+    margin: 10px 0;
+    text-decoration: non;
+    color: blue;
+
+}
+.footer-nav {
+            text-align: center;
+            margin-top: 50px;
+            /* adds some space above the links*/
+            padding-bottom: 20px;
+        }
+ <html>
+    <head>
+        <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>Contact Page</title>
+    </head>
+
+        <style>
+            body {background-color: Tan;}
+            h1 {color: black; text-align: center;}
+            p { font-family: sans-Serif; font-size: 20px;}
+        
+            /* THIS CENTERS THE "WEBSITE PAGES" HEADINF AND LINKS BELOW IT */
+            .footer-nav {text-align: center; margin-top: 50px; /* adds some space above the links*/ 
+                padding-bottom: 20px;}
+             .footer-nav a { display: blocks; margin: 10px 0; text-decoration: non; color: blue;}
+            </style>
+
+    <h1> Contact Us</h1>
+
+    <form>
+        <div class="footer-nav">
+
+        <lable for="name">Name:</lable><br>
+        <input type="text" class="form-control id="name" Placeholder="Enter your name"><br>
+        </div>
+
+        <p>Do you accept terms of agreement?</p>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" name="terms" id="yes" value="yes">
+                <label class="form-check-label" for="yes">Yes</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" name="terms" id="no" value="no">
+                <label class="form-check-label" for="no">No</label>
+            </div><br>
+            <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+ 
+<div class="footer-nav">
+<h2>Navigation</h2>
+<a href="First Page 7.html">Go to My First Page</a><br><br>
+<a href="Second Page 7.html">Go to My Second Page</a>
+</body>
+</html>
+      
