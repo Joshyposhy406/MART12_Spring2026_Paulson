@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+
+    <title>Contact Page</title>
+
+    <script>
+
+        var favoritenumber = 13;
+        var myName;
+        //myName = "Josh"; 
+        var actualAnswer;
+
+        //dont forget correct incorrect and total variablea
+
+
+        function getInformation() {
+            var firstName = document.getElementById("fName");
+            var lastName = document.getElementById("lName");
+
+            if (firstName.value == "" || lastName.value == "") {
+
+
+                if (firstName.value == "") {
+                    firstName.style.borderColor = "red";
+                    firstName.focus();
+                    console.log('this is empmty');
+
+                }
+
+                if (lastName.value == "") {
+                    lastName.style.borderColor = "red";
+                    lastName.focus();
+                }
+                return;
+
+
+            }
+
+        }
+
+       /* function printQuestion() {
+            doument.getElementById("question") = "what is 2+2?"
+
+        }
+
+        function printQuestion() {
+            var number1 = Math.floor(Math.random() * 10);
+            var number2 = Math.floor(Math.random() * 10);
+            actualAnswer = number1 + number2;
+            document.getElementById("theQuestion").innerHTML = "What is " + number1 + "+" + number2 + "?";
+        }
+
+        function checkAnswer() {
+
+            var answer = document.getElementById("txtAnswer").value;
+            if (answer == actualAnswer) {
+                document.getElementById("finalResult").innerHTML = "Good job!";
+            } else {
+                document.getElementById("finalResult").innerHTML = "Not quite!";
+            }
+        }
+
+
+        //check box has its own id so it will need it own if statment
+        */
+    </script>
+</head>
+
+
+
+
+
+<body>
+
+    <h1> Contact Us</h1>
+
+    <p> Please Provide Your Name</p>
+
+    <form>
+
+        <p>First Name: <input type="text" id="fName"></p>
+        <br>
+        <p>Last Name: <input type="text" id="lName"></p>
+        </br>
+        <button type="button" id="submit" onclick="getInformation();">Submit</button>
+        </br>
+
+    </form>
+
+    <p>Do you accept terms of agreement?</p>
+    <input type="radio" class="form-check-input" name="terms" id="yes" value="yes">
+
+    <input type="radio" class="form-check-input" name="terms" id="no" value="no">
+    <br>
+    <button type="button" id="submit" class="btn btn-primary">Submit</button>
+
+
+
+    <p id="theQuestion"></p>
+
+    <h2>Navigation</h2>
+    <a href="First Page 8.html">Go to My First Page</a><br><br>
+    <a href="Second Page 8.html">Go to My Second Page</a>
+</body>
+
+</html>

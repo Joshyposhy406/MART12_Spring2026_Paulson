@@ -1,0 +1,32 @@
+#test {
+    color: rgb(255, 0, 0);
+    font-family: arial;
+    Font-size: 24px;
+}
+
+#specificLink {
+    color: rgb(120, 236, 25);
+    font-family: arial;
+    font-size: 28px;
+}
+
+.footer-nav {
+    text-align: center;
+    margin-top: 50px;
+    /* adds some space above the links*/
+    padding-bottom: 20px;
+}
+
+.footer-nav a {
+    display: blocks;
+    margin: 10px 0;
+    text-decoration: non;
+    color: blue;
+
+}
+.footer-nav {
+            text-align: center;
+            margin-top: 50px;
+            /* adds some space above the links*/
+            padding-bottom: 20px;
+        }
