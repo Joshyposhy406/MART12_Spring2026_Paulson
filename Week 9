@@ -1,0 +1,62 @@
+function setup() {
+  createCanvas(400, 400);
+}
+function draw() {
+  background(220);
+  noStroke();
+  textSize(12);
+  fill(200, 0, 0,)
+  text("x: " + mouseX + ", y: " + mouseY, 10, 20);
+
+
+  stroke(12);
+  strokeWeight(5);
+  point(130, 160);
+  point(220, 260);
+  line(150, 330, 190, 330);
+  //line(40, 90, 85, 75);
+
+  noStroke();
+  fill(80);
+  circle(175, 280, 150);
+  rect(150, 340, 50, 60);
+
+
+
+  fill(200, 0, 0,)
+  ellipse(130, 260, 40, 20);
+  ellipse(215, 260, 40, 20);
+  fill(200, 0, 0,)
+  triangle(155, 280, 170, 310, 200, 280) //top, left, righ
+  rect(195, 230, 30, 15);
+  rect(120, 230, 30, 15);
+  ellipse(170, 325, 65, 30);
+
+
+
+  stroke(12);
+  strokeWeight(5);
+  point(130, 260);
+  point(220, 260);
+  line(150, 330, 190, 330);
+   //line(40, 90, 85, 75);
+
+
+  noStroke();
+  textSize(12);
+  text("thank you - Josh", 300, 370);
+
+    noStroke();
+  textSize(12);
+  text("josh", 10, 90);
+
+
+}
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+    <script src="portriatweek9.js"></script>
+  </head>
+  <body>
+  </body>
+</html>
